@@ -1,0 +1,116 @@
+body{
+  background-color:#ffa500;
+}
+
+  h1{
+  color: white; 
+  {}}
+  p1{
+  color:white;
+  font-size: 12px;
+  font-family:fantasy;
+  }
+   p{
+  color:purple;
+  font-size: 24px;
+  }
+  a1{
+    color:white;
+    font-size: 36px;
+    font-family:fantasy;
+  }
+  a2{
+    color:white;
+    font-size: 24px;
+    }
+    a{
+    color:black;
+    font-size: 18px;
+    font-family:fantasy;
+  }
+  h2{
+    color:white;
+  }
+  
+
+nav ul {
+  background-color:#c5b4d1;
+  border-style:solid;
+  border-color:red;
+  border-width: 1px;
+  padding: 20px;
+  border-radius: 0px;
+ }
+footer {
+  background-color:white;
+  border-style:solid;
+  border-color:black;
+  border-width: 1px;
+  padding: 10px;
+  border-radius: 10px;
+ }
+
+
+nav ul li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 15px;
+    margin-left: 10px;
+   }
+
+nav ul li a1 {
+    text-decoration:none;
+    color:white;
+   letter-spacing:3px;
+   }
+  
+  
+  #myCoolText {
+    color:white;
+    padding: 10px;
+    text-align: center;
+}
+
+#myCoolText1 {
+    color:white;
+    padding: 10px;
+    text-align: left;
+    
+}
+#myCoolText2 {
+    color:white;
+    padding: 10px;
+    text-align: right;
+    
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #F0FFFF;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 10px;
+    font-family: "Trebuchet MS", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    color: 		#ff4500;
+  }
+.card:hover {
+    border-color: #1E90FF; 
+    background: 	#f0f8ff;
+    color:	#000000;
+}
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+   
+}
+.tinyPicture {
+    height: 60px;
+    border-radius: 10px;
+     border: 2px solid #ffffff;
+}
